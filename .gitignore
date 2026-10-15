@@ -1,0 +1,27 @@
+__pycache__/
+.pytest_cache/
+.venv/
+.env
+*.pyc
+*.csv.gz
+# Additional virtual environments
+venv/
+env/
+
+# AI model files and caches
+.cache/
+models/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Temporary files
+*.log
+
+# Editor settings
+.vscode/
